@@ -16,9 +16,3 @@ application {
     // Define the main class for the application.
     mainClass.set("mitarbeiterverwaltung.App")
 }
-
-java {
-    toolchain {
-            languageVersion.set(JavaLanguageVersion.of(11))
-    }
-}
