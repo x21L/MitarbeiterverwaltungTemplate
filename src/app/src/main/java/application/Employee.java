@@ -2,12 +2,12 @@ package application;
 
 public class Employee {
 
-  final Department dept;
+    final Department dept;
 
-  public void print() {
+    public void print() {
     }
+
     public boolean isEquals(Employee other) {
-      return false;
+        return false;
     }
-  }
 }
